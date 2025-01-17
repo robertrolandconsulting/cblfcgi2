@@ -2,6 +2,9 @@
 
 Code to experiment with how to interact with FastCGI properly
 
+**Note**: This only works properly in GnuCOBOL 3.1.2, it seems there's a bug with 3.2 affecting the
+`PIC X ANY LENGTH` linkage section variable passed to `resp-put-ln`
+
 ## socat was my friend
 
 This set of commands let me inspect the UNIX socket output from

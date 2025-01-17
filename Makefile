@@ -1,4 +1,4 @@
-COBC_FLAGS=--save-temps=out/ -g -d -O -A '-include fcgiapp.h'
+COBC_FLAGS=-O -A '-include fcgiapp.h'
 LD_FLAGS=-lfcgi
 
 all: echo
